@@ -1,7 +1,5 @@
 'use strict';
 
-
-
 const express = require('express'); 
 const router = express.Router(); 
 const app = express(); 
@@ -19,6 +17,6 @@ app.use((err, req, res, next) => {
 
 app.use(require('./routes')(router)); 
 
-app.listen(3000, () => {
+app.listen(5000, () => {
     console.log('Listening port 3000');
 });
