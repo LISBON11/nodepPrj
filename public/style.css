@@ -1,0 +1,27 @@
+.worker-list
+{
+    background-color: rgba(233,98,14,.4);
+    padding: 0;
+}
+
+.worker-item
+{
+    list-style: none;
+    border: 1px solid #000;
+    margin: 10px 0;
+}
+
+.worker-item > img
+{
+    vertical-align: middle;
+}
+
+.worker-item > a
+{
+    color: red;
+}
+
+.worker-item > a:hover
+{
+    color: orange;
+}

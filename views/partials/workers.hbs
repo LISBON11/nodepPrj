@@ -1,0 +1,11 @@
+{{#if workers.length}}
+    <ul class="worker-list">
+        {{#each workers}}
+            <li class="worker-item">
+                <img src="/photos/{{id}}.png" alt="photo">
+                <a href="/worker/{{id}}">{{name}} {{surname}}</a>
+                <span>age: {{age}}</span>
+            </li>
+        {{/each}}
+    </ul>
+{{/if}}

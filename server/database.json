@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Ivan",
+        "surname": "Ivanov",
+        "age": 25,
+        "achivements": [
+            {
+                "id": 33,
+                "name": "the sexiest"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Petr",
+        "surname": "Petrov",
+        "age": 33,
+        "achivements": [
+            {
+                "id": 15,
+                "name": "reliable"
+            },
+            {
+                "id": 33,
+                "name": "the sexiest"
+            }
+        ]
+    }
+]
